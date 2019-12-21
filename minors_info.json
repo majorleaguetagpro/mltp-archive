@@ -1,350 +1,350 @@
 {
     "BHCP": {
         "name": "Blue Hot Chili Poppers",
-        "seasons": ["13", "14", "16", "17", "18"]
+        "seasons": [13, 14, 16, 17, 18]
     },
     "N13S": {
         "name": "13 Seasons Why",
-        "seasons": ["13"]
+        "seasons": [13]
     },
     "N21J": {
         "name": "21 Juke Street",
-        "seasons": ["14", "18"]
+        "seasons": [14, 18]
     },
     "N7DS": {
         "name": "She Wants the KD",
-        "seasons": ["16"]
+        "seasons": [16]
     },
     "N877": {
         "name": "877CAPSNOW",
-        "seasons": ["14"]
+        "seasons": [14]
     },
     "NAB": {
         "name": "Angry Balls",
-        "seasons": ["10"]
+        "seasons": [10]
     },
     "NABO": {
         "name": "A Blockwork Orange",
-        "seasons": ["14"]
+        "seasons": [14]
     },
     "NAC": {
         "name": "ALL CAPS",
-        "seasons": ["12"]
+        "seasons": [12]
     },
     "NACP": {
         "name": "The Aristocaps",
-        "seasons": ["12"]
+        "seasons": [12]
     },
     "NAW": {
         "name": "Attention Wars",
-        "seasons": ["14", "16", "17"]
+        "seasons": [14, 16, 17]
     },
     "NBAL": {
         "name": "Baltesers",
-        "seasons": ["10"]
+        "seasons": [10]
     },
     "NBBC": {
         "name": "Banana Boat Crew",
-        "seasons": ["13"]
+        "seasons": [13]
     },
     "NBC": {
         "name": "Ball€himedes",
-        "seasons": ["10"]
+        "seasons": [10]
     },
     "NBD": {
         "name": "Boostin Dynamo",
-        "seasons": ["10", "11", "12", "13", "14"]
+        "seasons": [10, 11, 12, 13, 14]
     },
     "NBGB": {
         "name": "Big Gay Balls",
-        "seasons": ["15"]
+        "seasons": [15]
     },
     "NBIH": {
         "name": "Boostnia and Herzagovina",
-        "seasons": ["16", "17"]
+        "seasons": [16, 17]
     },
     "NBNH": {
         "name": "Boats 'n' Holds",
-        "seasons": ["11", "12", "13"]
+        "seasons": [11, 12, 13]
     },
     "NBON": {
         "name": "Ball or Nothing",
-        "seasons": ["15"]
+        "seasons": [15]
     },
     "NBOP": {
         "name": "Balls on Parade",
-        "seasons": ["11", "17"]
+        "seasons": [11, 17]
     },
     "NBUB": {
         "name": "Bubble Balls",
-        "seasons": ["15"]
+        "seasons": [15]
     },
     "NCD": {
         "name": "Capper's Delight",
-        "seasons": ["10"]
+        "seasons": [10]
     },
     "NCJ": {
         "name": "A Developmental Lad",
-        "seasons": ["10", "13", "14"]
+        "seasons": [10, 13, 14]
     },
     "NCLP": {
         "name": "Club Pinguin",
-        "seasons": ["15", "16"]
+        "seasons": [15, 16]
     },
     "NCPH": {
         "name": "CapHazard",
-        "seasons": ["18"]
+        "seasons": [18]
     },
     "NCRD": {
         "name": "CreoDudes",
-        "seasons": ["17"]
+        "seasons": [17]
     },
     "NCRK": {
         "name": "Creokoalas",
-        "seasons": ["16"]
+        "seasons": [16]
     },
     "NCSP": {
         "name": "Chennai Super Pings",
-        "seasons": ["16", "17"]
+        "seasons": [16, 17]
     },
     "NCT9": {
         "name": "Clout 9",
-        "seasons": ["18"]
+        "seasons": [18]
     },
     "NCYE": {
         "name": "Contain Your Enthusiasm",
-        "seasons": ["18"]
+        "seasons": [18]
     },
     "NDND": {
         "name": "the dndside down",
-        "seasons": ["19"]
+        "seasons": [19]
     },
     "NDNO": {
         "name": "WCYDinos",
-        "seasons": ["19"]
+        "seasons": [19]
     },
     "NDOF": {
         "name": "Degrees of Freedom",
-        "seasons": ["11", "12", "15"]
+        "seasons": [11, 12, 15]
     },
     "NDOR": {
         "name": "Doolittle Raiders",
-        "seasons": ["19"]
+        "seasons": [19]
     },
     "NFBM": {
         "name": "Fire Breathing Dancing Monkeys",
-        "seasons": ["19"]
+        "seasons": [19]
     },
     "NGB": {
         "name": "Ghostboosters",
-        "seasons": ["10", "14"]
+        "seasons": [10, 14]
     },
     "NGCA": {
         "name": "Gotta Cap Em' All",
-        "seasons": ["19"]
+        "seasons": [19]
     },
     "NGFD": {
         "name": "Gateful Dead",
-        "seasons": ["18"]
+        "seasons": [18]
     },
     "NHGW": {
         "name": "Holdin' Gate Warriors",
-        "seasons": ["10", "11", "12"]
+        "seasons": [10, 11, 12]
     },
     "NHR": {
         "name": "Holy Rollers",
-        "seasons": ["10", "11", "17"]
+        "seasons": [10, 11, 17]
     },
     "NJC": {
         "name": "Pequeños Pandas",
-        "seasons": ["14"]
+        "seasons": [14]
     },
     "NJJ": {
         "name": "Junior Jukes",
-        "seasons": ["17"]
+        "seasons": [17]
     },
     "NJNG": {
         "name": "Jungle Jukes",
-        "seasons": ["15", "16"]
+        "seasons": [15, 16]
     },
     "NKOC": {
         "name": "Knights of Cap-a-Lot",
-        "seasons": ["15"]
+        "seasons": [15]
     },
     "NLBM": {
         "name": "Land Before Minors",
-        "seasons": ["19"]
+        "seasons": [19]
     },
     "NLC": {
         "name": "Liberty Caps",
-        "seasons": ["11", "12"]
+        "seasons": [11, 12]
     },
     "NLOW": {
         "name": "London WASDs",
-        "seasons": ["14"]
+        "seasons": [14]
     },
     "NLSP": {
         "name": "Los Santos Pings",
-        "seasons": ["10"]
+        "seasons": [10]
     },
     "NMBM": {
         "name": "Merballs",
-        "seasons": ["11", "12"]
+        "seasons": [11, 12]
     },
     "NMMP": {
         "name": "Mickey Mouse Poperation",
-        "seasons": ["16", "17"]
+        "seasons": [16, 17]
     },
     "NMT": {
         "name": "MEME*TEAM",
-        "seasons": ["10", "12"]
+        "seasons": [10, 12]
     },
     "NMTB": {
         "name": "Master Boaters",
-        "seasons": ["15"]
+        "seasons": [15]
     },
     "NNYT": {
         "name": "The New York Timers",
-        "seasons": ["13"]
+        "seasons": [13]
     },
     "NOBT": {
         "name": "Orbital Tilt",
-        "seasons": ["18"]
+        "seasons": [18]
     },
     "NOD": {
         "name": "Origin Ducks",
-        "seasons": ["10", "13"]
+        "seasons": [10, 13]
     },
     "NORB": {
         "name": "Orlando Roller Bears",
-        "seasons": ["12"]
+        "seasons": [12]
     },
     "NPBP": {
         "name": "ProBots",
-        "seasons": ["10"]
+        "seasons": [10]
     },
     "NPIC": {
         "name": "Pi-Curious",
-        "seasons": ["15", "16"]
+        "seasons": [15, 16]
     },
     "NPMG": {
         "name": "Pardon My Gate",
-        "seasons": ["18"]
+        "seasons": [18]
     },
     "NPNS": {
         "name": "Pup 'N Suds",
-        "seasons": ["10"]
+        "seasons": [10]
     },
     "NPRE": {
         "name": "Preventure Time",
-        "seasons": ["19"]
+        "seasons": [19]
     },
     "NQAK": {
         "name": "qakboosters",
-        "seasons": ["15"]
+        "seasons": [15]
     },
     "NREP": {
         "name": "The RePublicans",
-        "seasons": ["14"]
+        "seasons": [14]
     },
     "NRGB": {
         "name": "Rollin' Golden Boulders",
-        "seasons": ["14"]
+        "seasons": [14]
     },
     "NRKT": {
         "name": "Rektiles",
-        "seasons": ["19"]
+        "seasons": [19]
     },
     "NROP": {
         "name": "Return of the Ping",
-        "seasons": ["11"]
+        "seasons": [11]
     },
     "NRSP": {
         "name": "Respawnsiballs",
-        "seasons": ["18"]
+        "seasons": [18]
     },
     "NRTJ": {
         "name": "Run the Jukes",
-        "seasons": ["18"]
+        "seasons": [18]
     },
     "NS7J": {
         "name": "Spjork and the Seven Jorks",
-        "seasons": ["13"]
+        "seasons": [13]
     },
     "NSBP": {
         "name": "Someballian Pirates",
-        "seasons": ["14"]
+        "seasons": [14]
     },
     "NSC": {
         "name": "SMALL CAPS",
-        "seasons": ["15", "17", "19"]
+        "seasons": [15, 17, 19]
     },
     "NSH": {
         "name": "Snipe Hunt",
-        "seasons": ["11"]
+        "seasons": [11]
     },
     "NSOW": {
         "name": "Spheres of War",
-        "seasons": ["15"]
+        "seasons": [15]
     },
     "NSPK": {
         "name": "Spikeology",
-        "seasons": ["13"]
+        "seasons": [13]
     },
     "NSRP": {
         "name": "Stranger Pings",
-        "seasons": ["15", "16"]
+        "seasons": [15, 16]
     },
     "NSSP": {
         "name": "Seattle Superspawnics",
-        "seasons": ["17"]
+        "seasons": [17]
     },
     "NSTB": {
         "name": "St. Ball Saints",
-        "seasons": ["15"]
+        "seasons": [15]
     },
     "NSVB": {
         "name": "Soviet Ballers",
-        "seasons": ["17"]
+        "seasons": [17]
     },
     "NTBT": {
         "name": "The Balltastics",
-        "seasons": ["18"]
+        "seasons": [18]
     },
     "NTC": {
         "name": "ThunderCaps",
-        "seasons": ["12", "13"]
+        "seasons": [12, 13]
     },
     "NTCJ": {
         "name": "TC Jukes",
-        "seasons": ["14", "18"]
+        "seasons": [14, 18]
     },
     "NTHE": {
         "name": "Texas Hold'em",
-        "seasons": ["10"]
+        "seasons": [10]
     },
     "NTHS": {
         "name": "The Holy Seehawks",
-        "seasons": ["11", "16"]
+        "seasons": [11, 16]
     },
     "NTPB": {
         "name": "Trailer Park Balls",
-        "seasons": ["15"]
+        "seasons": [15]
     },
     "NTRS": {
-        "name": "Tears",
-        "seasons": ["10", "11", "12", "13", "14"]
+        "name": "Tears for Spheres",
+        "seasons": [10, 11, 12, 13, 14]
     },
     "NVIL": {
         "name": "Village Idiots",
-        "seasons": ["19"]
+        "seasons": [19]
     },
     "NWHC": {
         "name": "Whitecaps",
-        "seasons": ["14"]
+        "seasons": [14]
     },
     "NWTP": {
         "name": "Weed the People",
-        "seasons": ["15"]
+        "seasons": [15]
     }
 }
