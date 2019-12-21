@@ -1,11 +1,10 @@
-
 # mltp-archive
 
 This is an archive of MLTP matches from S10 to present. Each JSON file under the majors and minors folders corresponds to a match played by two teams in one week of play and uses the following naming convention:
 
 `season_week_team1abbr_team2abbr.json`
 
-In addition, raw game/half data is included as .tsv files. For convenience, here are links to the data in Google Sheets:
+In addition, raw data is included as .tsv files. For convenience, here are links to the data in Google Sheets:
 
 Link | Description
 :--: | :--:
@@ -15,6 +14,8 @@ Majors Score Data | Match scores (MLTP)
 [Minors Game Data](https://docs.google.com/spreadsheets/d/1QNxg5Ao3KgswdLEVv4Ol-vTpkN4kL9dD5T_F7F_mi9w/edit?usp=sharing) | Player statistics per game (mLTP)
 [Minors Half Data](https://docs.google.com/spreadsheets/d/1XEgQBjptYu1p0ZQLMpQ23J3O70EEQ9xdi0oRDq38S8s/edit?usp=sharing) | Player statistics per half (mLTP)
 Minors Score Data | Match Scores (mLTP)
+
+You are free to use this data however you see fit and are encouraged to post any bulk analysis to the [/r/MLTP subreddit](https://www.reddit.com/r/MLTP). If you are using this data in a public-facing manner, please include a link to this repository so others can use this data as well.
 
 # Table of Contents
 - **[Match Data Structure](#match-data-structure)**
@@ -80,7 +81,7 @@ Teams are not sorted alphabetically in a single match and have been standardized
 {
     "M877": { // standardized abbreviation used in the match files
         "name": "877-CAPSNOW", // regular team name
-        "seasons": ["14"] // seasons the team was active in MLTP
+        "seasons": [14] // seasons the team was active in MLTP
     }
 }
 ```
@@ -88,10 +89,27 @@ Teams are not sorted alphabetically in a single match and have been standardized
 All abbreviations are accounted for in the respective info.json files, so you can simply refer to those files if you need to use the regular team name for your analysis instead of the abbreviations.
 
 ## Abbreviation Rules
-Will be updated.
 
+All teams have a standardized abbreviation using the following rules:
+- The first letter of a team's abbreviation will define the tier of the team. This identifier is `M` for MLTP majors and `N` for MLTP minors.
+- This will be followed by a 2-3 character (all teams who played their first season after season 14 will have three characters, any teams prior may elect to use their historical 2 character abbreviation if applicable) unique alphanumeric identifier for the team.
+- A team is defined as a historical team if it played its first season prior to season 14, when abbreviations were first standardized.
+
+Certain teams do not use the tier identifier because their historical abbreviation was four characters:
+
+Tier | Abbreviation | Team
+:--: | :--: | :--:
+Majors | DLTP | A Developmental Lad
+Majors | RHCP | Red Hot Chili Poppers
+Minors | BHCP | Blue Hot Chili Poppers
+
+All teams from S10 to present other than the teams listed above conform to these rules, even if that team played in a season prior to season 14. (i.e. `AB` for Angry Balls in season 10 has been changed to `MAB` in this dataset.)
+ 
 # Statistics Structure
 ## Stats Information
+
+All statistics after cohandoff (Caps off Handoffs) on the following table are derived from the raw statistics before it. They are included in this dataset as a courtesy since TPL displays these statistics as well. If you plan on extending this dataset by combining matches together in some fashion, you should recalculate all of these statistics with the definition shown below, since your results will be incorrect if you add them together like you would the raw statistics.
+
 Statistic | Full Name | Description
 :--: | :--: | :--:
 score | Score | -
@@ -153,9 +171,13 @@ Minutes | Minutes is rounded to the nearest integer. This will result in small d
 Hold Against | Hold Against is calculated by half. This means players who do not play the full match length will have inaccurate HA because the full HA value is assigned.
 Plus/Minus | Like HA, Plus/Minus is calculated by half. This means players who do not play the full match length will have inaccurate PM because the full PM value is assigned.
 Saves | Saves do not register 100% of the time when using the TPL extractor.
-Hold Against per Minute | While all per-minute statistics will be slightly inaccurate as described above, HAPM may produce mathematically impossible results if the player did not play the full match length.
+Hold Against per Minute | While all per-minute statistics will be slightly inaccurate as described above, HAPM may produce mathematically impossible results (i.e. >60) if the player did not play the full match length.
+
+In addition, some matches will not have advanced statistics (i.e. statistics calculated from the match timeline) because a [tagpro.eu](https://tagpro.eu) match was not available. Do not use pastebin links as the only condition for detecting matches without advanced statistics, as some matches may use pastebin to upload tagpro.eu match data that did not upload properly due to some error.
 
 # To-Do
-1. Update tsv files to match data in json files
+1. Update tsv files to match current data in json files
 2. Rename players as needed (rip)
-3. Profit?
+3. Standardize team abbreviations for teams prior to season 10
+4. Import data for seasons prior to season 10
+5. Profit?
