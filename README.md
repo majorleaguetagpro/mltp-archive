@@ -156,7 +156,6 @@ Saves | Saves do not register 100% of the time when using the TPL extractor.
 Hold Against per Minute | While all per-minute statistics will be slightly inaccurate as described above, HAPM may produce mathematically impossible results if the player did not play the full match length.
 
 # To-Do
-1. Fix undefined maps
-2. Rename community selection to proper map names
-3. Rename players as needed (rip)
-4. Profit?
+1. Update tsv files to match data in json files
+2. Rename players as needed (rip)
+3. Profit?
