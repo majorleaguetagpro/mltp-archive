@@ -1,7 +1,7 @@
 
 # mltp-archive
 
-This is an archive of MLTP matches from S10 to present. Each JSON file under the majors and minors folders corresponds to a match played by two teams in one week of play and follows the following format:
+This is an archive of MLTP matches from S10 to present. Each JSON file under the majors and minors folders corresponds to a match played by two teams in one week of play and uses the following naming convention:
 
 `season_week_team1abbr_team2abbr.json`
 
@@ -66,7 +66,9 @@ Each file contains information about the match played in the following format:
 }
 ```
 ## Overtime
-All OT properties will appear in the json file irrespective of whether or not OT was played during the game. If you need to detect whether or not a game had overtime, you can check the length of gameX["links"]["ot"], as it will be non-zero when overtime occurred.  
+All OT properties will appear in the json file irrespective of whether or not OT was played during the game. If you need to detect whether or not a game had overtime, you can check the length of gameX["links"]["ot"], as it will be non-zero when overtime occurred.
+
+Total statistics does not include overtime statistics because not every game plays overtime. If you need to include overtime in your analysis, you can add the statistics manually.
 
 # Abbreviations Structure
 
@@ -93,7 +95,7 @@ Will be updated.
 Statistic | Full Name | Description
 :--: | :--: | :--:
 score | Score | -
-team | Team | Player's team during the half (1 for red, 2 for blue)
+team | Team | Abbreviation of the team which player corresponds to
 grabs | Grabs | -
 pops | Pops | -
 drops | Drops | -
@@ -147,7 +149,6 @@ The TPL stats extractor currently being used isn't perfect and has some issues. 
 
 Statistic | Issue
 :--: | :--:
-Team | If using game data instead of half data, note that team number may not accurately represent true teams (i.e. whether player is a member of team1 or team2.) In the future, team will represent true team instead of red/blue during the match.
 Minutes | Minutes is rounded to the nearest integer. This will result in small differences for minute based stats from their true value.
 Hold Against | Hold Against is calculated by half. This means players who do not play the full match length will have inaccurate HA because the full HA value is assigned.
 Plus/Minus | Like HA, Plus/Minus is calculated by half. This means players who do not play the full match length will have inaccurate PM because the full PM value is assigned.
@@ -157,5 +158,5 @@ Hold Against per Minute | While all per-minute statistics will be slightly inacc
 # To-Do
 1. Fix undefined maps
 2. Rename community selection to proper map names
-3. Change team to proper team names instead of integers
+3. Rename players as needed (rip)
 4. Profit?
