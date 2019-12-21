@@ -11,17 +11,19 @@ Link | Description
 :--: | :--:
 [Majors Game Data](https://docs.google.com/spreadsheets/d/1-m2QGi9HP-h8SSK5KHvyD5hxZkFKhAsfbRDe3jFLLKI/edit?usp=sharing) | Player statistics per game (MLTP)
 [Majors Half Data](https://docs.google.com/spreadsheets/d/1g2rZKevIsY8mFhLSJpzVLHMGrnOMk98ihJJ_kcJ573w/edit?usp=sharing) | Player statistics per half (MLTP)
+Majors Score Data | Match scores (MLTP)
 [Minors Game Data](https://docs.google.com/spreadsheets/d/1QNxg5Ao3KgswdLEVv4Ol-vTpkN4kL9dD5T_F7F_mi9w/edit?usp=sharing) | Player statistics per game (mLTP)
 [Minors Half Data](https://docs.google.com/spreadsheets/d/1XEgQBjptYu1p0ZQLMpQ23J3O70EEQ9xdi0oRDq38S8s/edit?usp=sharing) | Player statistics per half (mLTP)
+Minors Score Data | Match Scores (mLTP)
 
 # Table of Contents
-- **[Match Data Structure](#Match-Data-Structure)**
-	- [JSON Structure](#JSON-Structure) / [Overtime](#Overtime)
-- **[Abbreviations Structure](#Abbreviations-Structure)**
-	- [tier_info.json Structure](#tier_info.json-Structure)/[Abbreviation Rules](#Abbreviation-Rules)
-- **[Statistics Structure](#Statistics-Structure)**
-	- [Stats Information](#Stats-Information)/[Stats Issues](#Stats-Issues)
--**[To-Do](#To-Do)**
+- **[Match Data Structure](#match-data-structure)**
+	- [JSON Structure](#json-stucture) / [Overtime](#overtime)
+- **[Abbreviations Structure](#abbreviations-structure)**
+	- [tier_info.json Structure](#tier_infojson-structure)/[Abbreviation Rules](#abbreviation-rules)
+- **[Statistics Structure](#statistics-structure)**
+	- [Stats Information](#stats-information)/[Stats Issues](#stats-issues)
+- **[To-Do](#to-do)**
 
 # Match Data Structure
 
