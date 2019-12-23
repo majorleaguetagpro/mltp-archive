@@ -4,7 +4,7 @@ This is an archive of MLTP matches from S10 to present. Each JSON file under the
 
 `season_week_team1abbr_team2abbr.json`
 
-In addition, raw data for scores and player statistics is included as .tsv files in the `/tsv_data` folder. For convenience, here are links to the data in Google Sheets:
+In addition, raw data for scores and player statistics is included as .tsv files in the `/tsv_data` folder. The structures for each of these files is detailed below. For convenience, here are links to most of the data in Google Sheets:
 
 Link | Description
 :--: | :--:
@@ -20,6 +20,7 @@ You are free to use this data however you see fit and are encouraged to post any
 # Table of Contents
 - **[Match Data Structure](#match-data-structure)**
 	- [JSON Structure](#json-stucture)
+	- [TSV Structure](#tsv-structure)
 	- [Overtime](#overtime)
 - **[Abbreviations Structure](#abbreviations-structure)**
 	- [tier_info.json Structure](#tier_infojson-structure)
@@ -69,6 +70,20 @@ Each file contains information about the match played in the following format:
     "game2": {} // game2 follows the same format as game1
 }
 ```
+## TSV Structure
+
+For convenience, much of the data stored in the json files has also been converted into TSV files. This data can be easily imported into Excel or you can just copy the data from the Google Sheets spreadsheets linked above. (Both contain the same corresponding information.) Each tsv file holds different sections of the complete data stored in the json files.
+
+`majors_ scores_by_game.tsv` and `minors_scores_by_game.tsv` hold the score data by game for the respective tier. OT scores for each team (t1OT and t2OT) are in separate columns from the t1score and t2score, which are the summation of the h1 and h2 scores for the respective teams.
+
+`majors_scores_by_half.tsv` and `minors_scores_by_half.tsv` hold the score data by half for the respective tier. OT scores for each team are represented as a third half (`OT` in the half column) for each game.
+
+For both of these datasets, every game/half will have a value in the respective OT position. I have kept them in for now to ensure consistency, so if you need to check for OT, I would recommend checking to see if `t1OT` and `t2OT` are both zero OR if `t1score` and `t2score` are not equal.
+
+`majors_stats_by_game.tsv` and `minors_stats_by_game.tsv` hold the player data by game for the respective tier. The stats follow the same order as the JSON files, so you can refer to [Stats Information](#stats-information) if you need help deciphering statistics. Statistics by game do not include overtime statistics.
+
+`majors_stats_by_half.tsv` and `minors_stats_by_half.tsv` hold the player data by half for the respective tier. The stats follow the same order as the JSON files, so you can refer to [Stats Information](#stats-information) if you need help deciphering statistics. OT stats are included here as a third half (`OT` in the half column) for each game that had an overtime period.
+
 ## Overtime
 All OT properties will appear in the json file irrespective of whether or not OT was played during the game. If you need to detect whether or not a game had overtime, you can check the length of gameX["links"]["ot"], as it will be non-zero when overtime occurred.
 
