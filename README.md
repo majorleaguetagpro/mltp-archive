@@ -10,10 +10,10 @@ Link | Description
 :--: | :--:
 [Majors Game Data](https://docs.google.com/spreadsheets/d/1-m2QGi9HP-h8SSK5KHvyD5hxZkFKhAsfbRDe3jFLLKI/edit?usp=sharing) | Player statistics per game (MLTP)
 [Majors Half Data](https://docs.google.com/spreadsheets/d/1g2rZKevIsY8mFhLSJpzVLHMGrnOMk98ihJJ_kcJ573w/edit?usp=sharing) | Player statistics per half (MLTP)
-Majors Score Data | Match scores (MLTP)
+[Majors Score Data](https://docs.google.com/spreadsheets/d/1MB-vc9L4TQTjf5Tn5nNsiJaSI3tUOsN-JvOQ7r4xs2I/edit?usp=sharing) | Match scores per game and per half (MLTP)
 [Minors Game Data](https://docs.google.com/spreadsheets/d/1QNxg5Ao3KgswdLEVv4Ol-vTpkN4kL9dD5T_F7F_mi9w/edit?usp=sharing) | Player statistics per game (mLTP)
 [Minors Half Data](https://docs.google.com/spreadsheets/d/1XEgQBjptYu1p0ZQLMpQ23J3O70EEQ9xdi0oRDq38S8s/edit?usp=sharing) | Player statistics per half (mLTP)
-Minors Score Data | Match Scores (mLTP)
+[Minors Score Data](https://docs.google.com/spreadsheets/d/1ODLMo6nl72I6RUZA5e_iw1-swhMqlX0nR6yJUSx58VA/edit?usp=sharing) | Match scores per game and per half (mLTP)
 
 You are free to use this data however you see fit and are encouraged to post any bulk analysis to the [/r/MLTP subreddit](https://www.reddit.com/r/MLTP). If you are using this data in a public-facing manner, please include a link to this repository so others can use this data as well.
 
