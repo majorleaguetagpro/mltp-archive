@@ -4,7 +4,7 @@ This is an archive of MLTP matches from S10 to present. Each JSON file under the
 
 `season_week_team1abbr_team2abbr.json`
 
-In addition, raw data is included as .tsv files. For convenience, here are links to the data in Google Sheets:
+In addition, raw data for scores and player statistics is included as .tsv files in the `/tsv_data` folder. For convenience, here are links to the data in Google Sheets:
 
 Link | Description
 :--: | :--:
@@ -19,11 +19,14 @@ You are free to use this data however you see fit and are encouraged to post any
 
 # Table of Contents
 - **[Match Data Structure](#match-data-structure)**
-	- [JSON Structure](#json-stucture) / [Overtime](#overtime)
+	- [JSON Structure](#json-stucture)
+	- [Overtime](#overtime)
 - **[Abbreviations Structure](#abbreviations-structure)**
-	- [tier_info.json Structure](#tier_infojson-structure)/[Abbreviation Rules](#abbreviation-rules)
+	- [tier_info.json Structure](#tier_infojson-structure)
+	- [Abbreviation Rules](#abbreviation-rules)
 - **[Statistics Structure](#statistics-structure)**
-	- [Stats Information](#stats-information)/[Stats Issues](#stats-issues)
+	- [Stats Information](#stats-information)
+	- [Stats Issues](#stats-issues)
 - **[To-Do](#to-do)**
 
 # Match Data Structure
@@ -176,8 +179,7 @@ Hold Against per Minute | While all per-minute statistics will be slightly inacc
 In addition, some matches will not have advanced statistics (i.e. statistics calculated from the match timeline) because a [tagpro.eu](https://tagpro.eu) match was not available. Do not use pastebin links as the only condition for detecting matches without advanced statistics, as some matches may use pastebin to upload tagpro.eu match data that did not upload properly due to some error.
 
 # To-Do
-1. Update tsv files to match current data in json files
-2. Rename players as needed (rip)
-3. Standardize team abbreviations for teams prior to season 10
-4. Import data for seasons prior to season 10
-5. Profit?
+1. Rename players as needed (rip)
+2. Standardize team abbreviations for teams prior to season 10
+3. Import data for seasons prior to season 10
+4. Profit?
