@@ -194,8 +194,5 @@ Hold Against per Minute | While all per-minute statistics will be slightly inacc
 In addition, some matches will not have advanced statistics (i.e. statistics calculated from the match timeline) because a [tagpro.eu](https://tagpro.eu) match was not available. Do not use pastebin links as the only condition for detecting matches without advanced statistics, as some matches may use pastebin to upload tagpro.eu match data that did not upload properly due to some error.
 
 # To-Do
-1. Fix team name errors for tied halves (oops)
-2. Rename players as needed (rip)
-3. Standardize team abbreviations for teams prior to season 10
-4. Import data for seasons prior to season 10
-5. Profit?
+
+You can track the progress of the archive [here.](https://github.com/majorleaguetagpro/mltp-archive/projects/1)
