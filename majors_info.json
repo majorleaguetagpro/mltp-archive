@@ -97,7 +97,7 @@
     },
     "MFBD": {
         "name": "Fire Breathing Rubber Duckies",
-        "seasons": [19]
+        "seasons": [19, 20]
     },
     "MGB": {
         "name": "Ghostboosters",
@@ -118,6 +118,10 @@
     "MHGW": {
         "name": "Holdin' Gate Warriors",
         "seasons": [10, 11, 12, 18]
+    },
+    "MHHR": {
+        "name": "He Hate Re",
+        "seasons": [20]
     },
     "MHR": {
         "name": "Holy Rollers",
