@@ -131,6 +131,10 @@
         "name": "Doolittle Raiders",
         "seasons": [19]
     },
+    "NDSM": {
+        "name": "D-Spikeaball Me",
+        "seasons": [20]
+    },
     "NFBM": {
         "name": "Fire Breathing Dancing Monkeys",
         "seasons": [19]
@@ -159,6 +163,10 @@
         "name": "Pequeños Pandas",
         "seasons": [14]
     },
+    "NJDE": {
+        "name": "Jardim of Eden",
+        "seasons": [20]
+    },
     "NJJ": {
         "name": "Junior Jukes",
         "seasons": [17]
@@ -175,6 +183,10 @@
         "name": "Land Before Minors",
         "seasons": [19]
     },
+    "NLBT": {
+        "name": "Land Before Timers",
+        "seasons": [20]
+    }
     "NLC": {
         "name": "Liberty Caps",
         "seasons": [11, 12]
@@ -223,13 +235,17 @@
         "name": "ProBots",
         "seasons": [10]
     },
+    "NPCB": {
+        "name": "PussyCap Balls",
+        "seasons": [20]
+    },
     "NPIC": {
         "name": "Pi-Curious",
         "seasons": [15, 16]
     },
     "NPMG": {
         "name": "Pardon My Gate",
-        "seasons": [18]
+        "seasons": [18,20]
     },
     "NPNS": {
         "name": "Pup 'N Suds",
@@ -241,7 +257,7 @@
     },
     "NQAK": {
         "name": "qakboosters",
-        "seasons": [15]
+        "seasons": [15, 20]
     },
     "NREP": {
         "name": "The RePublicans",
@@ -307,6 +323,10 @@
         "name": "Soviet Ballers",
         "seasons": [17]
     },
+    "NTBB": {
+        "name": "The Ball Boys",
+        "seasons": [20]
+    },
     "NTBT": {
         "name": "The Balltastics",
         "seasons": [18]
@@ -317,7 +337,7 @@
     },
     "NTCJ": {
         "name": "TC Jukes",
-        "seasons": [14, 18]
+        "seasons": [14, 18, 20]
     },
     "NTHE": {
         "name": "Texas Hold'em",
@@ -326,6 +346,10 @@
     "NTHS": {
         "name": "The Holy Seehawks",
         "seasons": [11, 16]
+    },
+    "NTMT": {
+        "name": "Teenage Mutant Ninja Turtlers",
+        "seasons": [20]
     },
     "NTPB": {
         "name": "Trailer Park Balls",
@@ -346,5 +370,9 @@
     "NWTP": {
         "name": "Weed the People",
         "seasons": [15]
+    },
+    "NYHT": {
+        "name": "Young Hotties",
+        "seasons": [20]
     }
 }
