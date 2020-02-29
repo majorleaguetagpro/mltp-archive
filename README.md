@@ -8,11 +8,11 @@ In addition, raw data for scores and player statistics is included as .tsv files
 
 Link | Description
 :--: | :--:
-[Majors Game Data](https://docs.google.com/spreadsheets/d/1-m2QGi9HP-h8SSK5KHvyD5hxZkFKhAsfbRDe3jFLLKI/edit?usp=sharing) | Player statistics per game (MLTP)
-[Majors Half Data](https://docs.google.com/spreadsheets/d/1g2rZKevIsY8mFhLSJpzVLHMGrnOMk98ihJJ_kcJ573w/edit?usp=sharing) | Player statistics per half (MLTP)
+[Majors Game Data](https://docs.google.com/spreadsheets/d/1rkWStvD0M59B6vqxfzpZS7OUI0zksvGYDwaCtuUIczU/edit?usp=sharing) | Player statistics per game (MLTP)
+[Majors Half Data](https://docs.google.com/spreadsheets/d/1FUhzwwWZk_N5XL6nSSVq5Hrzl7yz7LYmzxyXUIrue04/edit?usp=sharing) | Player statistics per half (MLTP)
 [Majors Score Data](https://docs.google.com/spreadsheets/d/1MB-vc9L4TQTjf5Tn5nNsiJaSI3tUOsN-JvOQ7r4xs2I/edit?usp=sharing) | Match scores per game and per half (MLTP)
-[Minors Game Data](https://docs.google.com/spreadsheets/d/1QNxg5Ao3KgswdLEVv4Ol-vTpkN4kL9dD5T_F7F_mi9w/edit?usp=sharing) | Player statistics per game (mLTP)
-[Minors Half Data](https://docs.google.com/spreadsheets/d/1XEgQBjptYu1p0ZQLMpQ23J3O70EEQ9xdi0oRDq38S8s/edit?usp=sharing) | Player statistics per half (mLTP)
+[Minors Game Data](https://docs.google.com/spreadsheets/d/1d2G9SGQ8HUY6G_kmt9W5DRAcKwAbLmP32b6wWDXr52U/edit?usp=sharing) | Player statistics per game (mLTP)
+[Minors Half Data](https://docs.google.com/spreadsheets/d/1q_rbNNjEB7l7H_e5TawrOb3EzGNkX1RBDQG6gM0DGYA/edit?usp=sharing) | Player statistics per half (mLTP)
 [Minors Score Data](https://docs.google.com/spreadsheets/d/1ODLMo6nl72I6RUZA5e_iw1-swhMqlX0nR6yJUSx58VA/edit?usp=sharing) | Match scores per game and per half (mLTP)
 
 You are free to use this data however you see fit and are encouraged to post any bulk analysis to the [/r/MLTP subreddit](https://www.reddit.com/r/MLTP). If you are using this data in a public-facing manner, please include a link to this repository so others can use this data as well.
@@ -186,6 +186,7 @@ The TPL stats extractor currently being used isn't perfect and has some issues. 
 Statistic | Issue
 :--: | :--:
 Minutes | Minutes is rounded to the nearest integer. This will result in small differences for minute based stats from their true value.
+Hold | If a player has a kept flag, then the hold from that grab will not be counted. In the long run, this should not have a significant impact on data trends.
 Hold Against | Hold Against is calculated by half. This means players who do not play the full match length will have inaccurate HA because the full HA value is assigned.
 Plus/Minus | Like HA, Plus/Minus is calculated by half. This means players who do not play the full match length will have inaccurate PM because the full PM value is assigned.
 Saves | Saves do not register 100% of the time when using the TPL extractor.
