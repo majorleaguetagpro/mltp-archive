@@ -429,8 +429,8 @@ season	week	game	half	team1	team2	t1score	t2score	t1OT	t2OT
 14	1	Jardim	-	RHCP	MWHC	14	11	0	0
 14	2	Jardim	-	MREP	MB4	5	8	0	0
 14	2	Rush	-	MREP	MB4	2	5	0	0
-14	2	Jardim	-	MSBP	MGB	10	9	0	0
-14	2	Rush	-	MSBP	MGB	5	12	0	0
+14	2	Jardim	-	MSBP	MGB	5	12	0	0
+14	2	Rush	-	MSBP	MGB	10	9	0	0
 14	2	Jardim	-	MRGB	M877	7	4	0	0
 14	2	Rush	-	MRGB	M877	6	6	4	1
 14	2	Jardim	-	MTRS	MCOA	11	6	0	0
@@ -581,8 +581,8 @@ season	week	game	half	team1	team2	t1score	t2score	t1OT	t2OT
 15	3	Cache	-	MAC	MABO	6	5	0	0
 15	4	Cache	-	MCRK	MBD	11	10	0	0
 15	4	Pilot	-	MCRK	MBD	6	8	0	0
-15	4	Cache	-	MWOB	MORB	4	4	0	0
-15	4	Pilot	-	MWOB	MORB	5	4	0	0
+15	4	Cache	-	MWOB	MORB	5	3	0	0
+15	4	Pilot	-	MWOB	MORB	7	5	0	0
 15	4	Cache	-	MABO	MGGB	5	4	0	0
 15	4	Pilot	-	MABO	MGGB	6	9	0	0
 15	4	Cache	-	MCOA	MAC	3	8	0	0
@@ -893,8 +893,8 @@ season	week	game	half	team1	team2	t1score	t2score	t1OT	t2OT
 19	3	Scorpio	-	MCDC	MSRP	6	8	0	0
 19	4	Scorpio	-	MDNO	MFBD	6	9	0	0
 19	4	Cedar	-	MDNO	MFBD	5	10	0	0
-19	4	Scorpio	-	MTEF	MCDC	5	12	0	0
-19	4	Cedar	-	MTEF	MCDC	2	6	0	0
+19	4	Scorpio	-	MTEF	MCDC	2	6	0	0
+19	4	Cedar	-	MTEF	MCDC	5	12	0	0
 19	4	Scorpio	-	MRKT	MVIL	8	5	0	0
 19	4	Cedar	-	MRKT	MVIL	10	7	0	0
 19	4	Scorpio	-	MLBT	MSRP	8	5	0	0
